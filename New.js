@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-const str = ["Привет", "Пока", "Как дела", "все хорошо"];
+const hous = {
+    door: 'Из дуба',
+    sofa: 'Из кожи'
+}
 
+const companyInfo = {typeHome: 'Панелька', ...hous, id: 123};
 
-console.log(str)
-=======
-console.log('Hello')
-console.log("привет")
-|
-  fdkgkfd
-
-fdjgjfdjg
-
-fdjgkjfgj
->>>>>>> 2c846213942685c27ce97ad6ae2651f9e6898ed5
+console.log(companyInfo)
